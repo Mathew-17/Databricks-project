@@ -48,7 +48,5 @@ The pipeline demonstrates industry-standard data engineering practices, includin
 - SQL for analytics/modeling
 - GitHub for version control
 
----
 
-## 📂 Project Structure
 

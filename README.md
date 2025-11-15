@@ -1,52 +1,15 @@
-# End-to-End Data Engineering Pipeline on Databricks
+Welcome to your new dbt project!
 
-This project showcases a complete data engineering pipeline built on Databricks using PySpark and the Medallion Architecture. It ingests raw data into the Bronze layer, applies cleaning and transformation logic in the Silver layer, and produces analytics-ready fact and dimension tables in the Gold layer for reporting and dashboarding.
+### Using the starter project
 
-The pipeline demonstrates industry-standard data engineering practices, including schema enforcement, incremental processing, deduplication, data quality checks, and modular transformation logic.
-
----
-
-## 🚀 Features
-
-- Raw data ingestion into Delta Lake (Bronze)
-- Data cleaning, standardization, and deduplication (Silver)
-- Aggregated business views and dimensional modeling (Gold)
-- PySpark transformation pipelines
-- Delta Lake ACID transactions and time travel
-- Notebook-based workflow with clear modular steps
-- Scalable Medallion Architecture for real-world data platforms
-
----
-
-## 🧱 Architecture (Medallion Model)
-
-### **Bronze Layer**
-- Stores raw ingested data as-is
-- Handles schema definition and ingestion logic
-
-### **Silver Layer**
-- Cleans and transforms data
-- Handles:
-  - Null value treatment  
-  - Deduplication  
-  - Type casting  
-  - Standardization  
-
-### **Gold Layer**
-- Final curated business tables
-- Fact & dimension tables optimized for analytics
-- Used by BI tools or ML pipelines
-
----
-
-## 🛠️ Tech Stack
-
-- Databricks (Spark + Delta Lake)
-- PySpark
-- Delta Tables
-- Databricks Notebooks
-- SQL for analytics/modeling
-- GitHub for version control
+Try running the following commands:
+- dbt run
+- dbt test
 
 
-
+### Resources:
+- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
+- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
+- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
+- Find [dbt events](https://events.getdbt.com) near you
+- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
